@@ -72,19 +72,19 @@ Incoming Call → Speech-to-Text → Response Generation → Text-to-Speech → 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/Udgam25-VoiceBot.git
-cd Udgam25-VoiceBot
+git clone https://github.com/Sshashank18/Udgam25.git
 ```
 2. Install Dependencies
 ```bash pip install -r requirements.txt```
-3. Add .env File
-```bashCreate a .env file with the following:```
+3. Run Ipynb File Line By Line
+4. Add .env File
+```Create a .env file with the following:
 
 TWILIO_ACCOUNT_SID=your_sid
 TWILIO_AUTH_TOKEN=your_token
 TWILIO_PHONE_NUMBER=your_twilio_number
-
-4. Run the Twilio Flask Server
+```
+5. Run the Twilio Flask Server
 ```bash
 cd twilio_server
 python app.py
